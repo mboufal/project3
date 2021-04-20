@@ -72,6 +72,23 @@ div#extras{
 }
 /*-------------------------------*/
 
+/*---------Map-------------------*/
+#wrapper-map {
+	width: 80%;
+	height: 60%;
+	background-color: #FFF0F5;
+	margin: 10px auto;
+	outline: 2px dashed #0053ae;
+	overflow: hidden;
+}
+
+#canvas {
+	width: 700px;
+	height: 500px;
+	background-color: #ccc;
+	margin: 30px auto;
+}
+
 /*style*/
 .box1 {
 	background-color: #FFF0F5;
@@ -125,3 +142,4 @@ p{
 	width: 100%;
 	height: 100%;
 }
+
