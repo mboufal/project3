@@ -16,7 +16,6 @@ nav#nav-bar ul {
 	background-color: #dddddd;
 }
 nav#nav-bar ul li{
-	float: center;
 	display: inline-block;
 }
 nav#nav-bar ul li a{
