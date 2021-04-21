@@ -59,15 +59,15 @@ div#extras{
 
 #funfacts {
 	float: left;
-	width: 500px;
-	margin: 10px 20px;
+	width: 450px;
+	margin: 5px 10px;
 	outline: 2px dashed #0053ae;
 	
 }
 #photos {
 	float: left;
 	width: 440px;
-	margin: 10px 20px;
+	margin: 5px 10px;
 	outline: 2px dashed #dd0009;
 }
 
@@ -104,15 +104,15 @@ div#extras{
 }
 
 
-img {
+.img {
 	width: 360px;
 	height: 440px;
 }
-video {
+.video {
 	width: 360px;
 	height: 440px;
 }
-iframe{
+.iframe{
 	width: 360px;
 	height: 440px;
 }
@@ -148,14 +148,17 @@ p{
 	height: 100%;
 }
 /*-------*/
-@media screen and max-width: 800px){
-#wrapper {
-	width: 45%;
-	margin: 10px 5% 10px 10%;
+@media screen and (max-width: 800px){
+body {
+	background: #FFF0F5;
+	font-size: 1.25em;
 }
-#photos {
-	float: left;
-	width: 25%;
-	margin: 10px 10% 10px 5%;
-	outline: 2px dashed #dd0009;
+
+
+
+
+#wrapper {
+	box-sizing: border-box;
+	width: 100%;
+	margin: auto;
 }
