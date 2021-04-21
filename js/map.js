@@ -16,12 +16,11 @@ function init(){
 	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
+		animation: google.maps.Animation.DROP
 	});
 
 	var contentString = '<h1>Chicken Island</h1><p>Chicken Island is an island located in the southeast of Dianbai district, Maoming, Guangdong province, China. Its original name is Fenzhou (汾洲) island and Wanzhou (湾舟) island. The area of Chicken Island is 1.9 square kilometers and it is the biggest island in Maoming. The highest point on Chicken island is 122 miles and the visibility of the sea area around it is between 6 and 12 miles. The climate of Chicken island is subtropical climate.</p>';
-
+	
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
   	});

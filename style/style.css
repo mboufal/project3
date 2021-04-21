@@ -2,6 +2,9 @@
 nav#nav-bar{
 	background-color: #dddddd;
 	width: 100%;
+	text-align: center;
+	position: fixed;
+	top:0px;
 }
 nav#nav-bar ul {
 	list-style-type: none;
@@ -11,13 +14,12 @@ nav#nav-bar ul {
 	width: 100%;
 	top: 0;
 	background-color: #dddddd;
-	text-align: center;
-	right:50%;
 }
-nav#nav-bar li{
-	float: left;
+nav#nav-bar ul li{
+	float: center;
+	display: inline-block;
 }
-nav#nav-bar li a{
+nav#nav-bar ul li a{
 	display: block;
 	padding: 10px;
 	background-color: #dddddd;
@@ -27,10 +29,15 @@ nav#nav-bar li a{
 nav#nav-bar ul li a:hover {
 	background-color: #F0F8FF;
 }
-
+#main-header{
+	margin-top: 50px;
+}
 #onpage{
 	text-transform: uppercase;
 	}
+
+
+
 /*-------------------------------*/
 
 /*----layout index and resume: fluid---*/
@@ -142,4 +149,8 @@ p{
 	width: 100%;
 	height: 100%;
 }
+/*---------media screen--------------*/
+@media screen and (min-width:800px){
+	
 
+}
