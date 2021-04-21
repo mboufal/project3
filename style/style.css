@@ -65,7 +65,7 @@ div#extras{
 }
 #photos {
 	float: left;
-	width: 440px;
+	width: 400px;
 	margin: 5px 10px;
 	outline: 2px dashed #dd0009;
 }
@@ -152,10 +152,6 @@ body {
 	background: #FFF0F5;
 	font-size: 1.25em;
 }
-
-
-
-
 #wrapper {
 	box-sizing: border-box;
 	width: 100%;
