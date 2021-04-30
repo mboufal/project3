@@ -5,10 +5,19 @@
     <title>CHICKENS!</title>
 	<link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/normalize.css">
-	<link rel="stylesheet" href="style/style_800.css" media="screen and (min-width: 800px)">
+	<link rel="stylesheet" href="style/style.css" media="screen and (min-width: 800px)">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="style/jquery.bxslider.css">
+    <script src="js/script.js"></script>
+	
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
   </head>
   
   <body>
@@ -96,9 +105,31 @@
 	      <p>Here's the video where Vsauce <em>pecks up</em> the subject.</p>  
         </div>  
 	  </div>
-	
-		
-	<section id="photos">
+	<section id="photos">  
+	 <div class="slideshow">
+		<ul class="bxslider">
+			<li><img src="images/blackrooster1.jpg" /> <div class="text">Fun Fact #1</div></li>
+			<li><img src="images/colorful_eggs.jpg" /><div class="text">Fun Fact #2</div></li>
+			<li><img src="images/wit_chicken.jpg" /><div class="text">Fun Fact #3</div></li>
+			<li><img src="images/rooster.jpg" /><div class="text">Fun Fact #4</div></li>
+			<li><img src="images/chicken_eye.jpg" /><div class="text">Fun Fact #5</div></li>
+			<li><img src="images/chicken_row.jpg" /><div class="text">Fun Fact #6</div></li>
+			<li><img src="images/chicken_boxes.jpg" /><div class="text">Fun Fact #7</div></li>
+			<li><img src="images/chick.jpg" /><div class="text">Fun Fact #8</div></li>
+			<li><video class="video" controls><source src="images/chicken_playing2.mp4" type="video/mp4"></video><div class="text">Fun Fact #9</div></li>
+			<li><img class="img" src="images/trex_chicken.jpg" alt = "trex_chicken" /><div class="text">Fun Fact #10</div></li>
+			<iframe class="iframe" src="https://www.youtube.com/embed/_6nSOgsI_vo" ><div class="text">EXTRA!!! #11</div></iframe>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				mode: 'fade'
+			});
+		});
+	</script>
+</section>
+	<!-- <section id="photos">
 	  <div class="box1">
 	    <img class="img" src="images/blackrooster1.jpg" alt = "a_black_rooster">
 	  </div>
@@ -132,7 +163,7 @@
 	  <div class="box1">
 	      <iframe class="iframe" src="https://www.youtube.com/embed/_6nSOgsI_vo" ></iframe>
 	  </div>
-	</section>
+	</section> -->
 	</section>
 	<div id="footer">
 	  <p><strong>Sources:</strong></p>

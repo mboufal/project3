@@ -67,7 +67,6 @@ div#extras{
 	float: left;
 	width: 400px;
 	margin: 5px 10px;
-	outline: 2px dashed #dd0009;
 }
 
 #footer{
@@ -102,10 +101,9 @@ div#extras{
 	margin: 20px;
 }
 
-
-.img {
-	width: 360px;
+img {
 	height: 440px;
+	width:100%;
 }
 .video {
 	width: 360px;
@@ -146,15 +144,54 @@ p{
 	width: 100%;
 	height: 100%;
 }
+
+
+
 /*-------*/
 @media screen and (max-width: 800px){
-#wrapper {
-	box-sizing: border-box;
-	width: 100%;
-	margin: auto;
-}
 body {
 	background: #FFF0F5;
 	font-size: 1.25em;
 }
+
+#wrapper {
+	box-sizing: border-box;
+	width: 800px;
+	margin: auto;
 }
+
+#funfacts {
+	float: left;
+	width: 450px;
+	margin: 5px 10px;
+	outline: none;
+}
+	
+.box1 {
+	background-color: white;
+	box-sizing: border-box;
+	height: 440px;
+	padding: 20px;
+	margin: 20px;
+	outline: 2px dashed #0053ae;
+}
+}
+	.slideshow {
+			max-width: 400px;
+			max-height:400px;
+			margin: 0 auto;
+		}
+		.slideshow ul {
+			margin:0;
+		}
+	  /* Caption text */
+    .text {
+     color: #f2f2f2;
+     font-size: 30px;
+	 font-family:'Playfair Display', serif;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+     }

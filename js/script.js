@@ -1,3 +1,9 @@
+$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				mode: 'fade'
+			});
+		});
+
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
