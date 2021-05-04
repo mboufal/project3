@@ -176,12 +176,13 @@ body {
 	outline: 2px dashed #0053ae;
 }
 }
-	.slideshow {
+	.slider {
 			max-width: 400px;
 			max-height:400px;
 			margin: 0 auto;
 		}
-		.slideshow ul {
+		.slider img {
+			width: 100%;
 			margin:0;
 		}
 	  /* Caption text */
