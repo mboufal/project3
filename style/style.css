@@ -76,6 +76,11 @@ div#extras{
 /*-------------------------------*/
 
 /*---------Map-------------------*/
+
+#map {
+    height: 100%;
+	width: 100%;
+}
 #wrapper-map {
 	width: 80%;
 	height: 60%;
@@ -85,11 +90,11 @@ div#extras{
 	overflow: hidden;
 }
 
-#canvas {
-	width: 700px;
-	height: 500px;
-	background-color: #ccc;
-	margin: 30px auto;
+      /* Optional: Makes the sample page fill the window. */
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
 }
 /*------------------------------*/
 /*style*/
