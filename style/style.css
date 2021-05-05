@@ -67,6 +67,7 @@ div#extras{
 	float: left;
 	width: 400px;
 	margin: 5px 10px;
+	outline: 2px dashed #0053ae;
 }
 
 #footer{
@@ -115,7 +116,7 @@ img {
 }
 .iframe{
 	width: 360px;
-	height: 440px;
+	height: 400px;
 }
 
 
@@ -165,8 +166,7 @@ body {
 }
 
 #funfacts {
-	float: left;
-	width: 450px;
+	float: center;
 	margin: 5px 10px;
 	outline: none;
 }
@@ -179,7 +179,12 @@ body {
 	margin: 20px;
 	outline: 2px dashed #0053ae;
 }
+#photos {
+	display: none;
 }
+}
+
+
 
 @media screen and (min-width: 1000px){
 body {
@@ -206,6 +211,12 @@ h3 {
 	height: 440px;
 	padding: 20px;
 	margin: 0px;
+}
+#footer{
+	clear: left;
+	padding: 15px;
+	background-color:#FFF0F5;
+	outline: 2px dashed #0053ae;
 }
 }
 	
