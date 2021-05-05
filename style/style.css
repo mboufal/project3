@@ -90,7 +90,6 @@ div#extras{
 	overflow: hidden;
 }
 
-      /* Optional: Makes the sample page fill the window. */
 html, body {
         height: 100%;
         margin: 0;
@@ -181,23 +180,32 @@ body {
 	outline: 2px dashed #0053ae;
 }
 }
-	.slider {
-			max-width: 400px;
-			max-height:400px;
-			margin: 0 auto;
-		}
-		.slider img {
-			width: 100%;
-			margin:0;
-		}
-	  /* Caption text */
-    .text {
-     color: #f2f2f2;
-     font-size: 30px;
-	 font-family:'Playfair Display', serif;
-     padding: 8px 12px;
-     position: absolute;
-     bottom: 8px;
-     width: 100%;
-     text-align: center;
-     }
+
+@media screen and (min-width: 1200px){
+body {
+	background-image: url('back.jpg');
+	font-size: 1em;
+}
+main#main-fluid{
+	float: left;
+	width: 40%;
+	margin: 20px 10px 10px 10%;
+	padding: 20px;
+    background-color: #FFF0F5;
+	outline: 2px dashed #0053ae;
+}
+
+h1 {
+	background-color: #FFF0F5;
+}
+h3 {
+	background-color: #FFE4C4;
+}
+.box1 {
+	box-sizing: border-box;
+	height: 440px;
+	padding: 20px;
+	margin: 0px;
+}
+}
+	
