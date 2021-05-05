@@ -166,7 +166,7 @@ body {
 }
 
 #funfacts {
-	float: center;
+	float: left;
 	margin: 5px 10px;
 	outline: none;
 }
