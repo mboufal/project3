@@ -3,7 +3,7 @@
   function initMap() {
  const alaska = { lat: 64.4732, lng: -141.7543 }; 
  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 5,
     center: alaska,
   });
   
